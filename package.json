@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-process": "SET NODE_ENV=development && node ./process-object/index.js Zidan",
+    "start-module": "node ./modularization/index.js",
+    "start-node-package": "node ./node-package-manager/index.js",
+    "start-events": "node ./events/index.js",
+    "start-fs": "node ./filesystem/index.js",
+    "start-stream": "node ./stream/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
